@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pl_PL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Izabela Dzienisz Web developer | Portfolio </title>
+  <meta name="description" content="Izabela Dzienisz Web developer | Portfolio">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <meta name="keywords" content="projektowanie stron internetowych, web developer, front-end developer, trojmiasto, trójmiasto">
+  <meta name='robots' content="index,follow">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Asap:400,600|Berkshire+Swash|Capriola|Didact+Gothic|Exo+2&subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <style type="text/css">
+    button#header-button {
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(-135deg,#FFD199 0%,#F58700 100%);
+    background-clip: initial;
+    -webkit-text-fill-color: #444;
+    font-size: 1.375em;
+    text-decoration: none;
+    cursor: pointer;
+    width: 7em;    
+    height: 2.5em;
+    opacity: 0.9;
+    transition: all 0.2s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+<!-- Navigation -->
+<div class="main-contener">
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+    <a href="" class="navbar-brand"><img src="img/logoDevStarter.png" width="auto" height="65" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="#about" class="nav-link">O&nbsp;mnie</a>
+        </li>
+        <li class="nav-item">
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+        </li>
+        <li class="nav-item" class="nav-link">
+          <a href="#contact" class="nav-link">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Header -->
+<div class="hero-image d-flex justify-content-center align-items-center">
+  <h1 class="logo">Izabela</h1>
+  <h1 class="logo">Dzienisz</h1><br>
+  <span>Web&nbsp;developer</span><br>
+  <br>
+  <button type="btn" id="header-button"><a href="#about" style="text-decoration: none;">Więcej</a></button>
+</div>
+<!-- About section -->
+<div class="container-fluid padding">
+  <div class="row text-center">
+    <div class="col-xs-12 col-sm-4 col-md-4">
+      <h2 name="about" id="about">O mnie</h2>
+      <div class="col-12">
+      <img src="img/myphoto.png" class="myphoto" alt="Zdjęcie">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit fuga alias velit omnis ex libero! Voluptatibus laborum deleniti enim fuga unde dolorem necessitatibus blanditiis perspiciatis, aliquam harum quas minima eaque.</p>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-4 col-md-4">
+    <h2>Używam</h2> 
+    <div class="it-label col-xs-4">
+      <i class="fab fa-html5"></i>
+      <p>HTML5</p>
+    </div>
+    <div class="it-label">
+      <i class="fab fa-css3-alt"></i>
+      <p>CSS3</p>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-4 col-md-4">
+    <h2>Uczę się</h2> 
+    <div class="it-label col-xs-4">
+      <i class="fas fa-bold"></i>
+      <p>Bootstrap</p>
+    </div>
+    <div class="it-label">
+      <i class="fab fa-github"></i>
+      <p>GitHub</p>
+    </div>
+    <div class="it-label">
+      <i class="fab fa-js-square"></i>
+      <p>JavaScript</p>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- Portfolio -->
+<h2 name="portfolio" id="portfolio">Portfolio</h2>
+<div class="d-flex justify-content-center align-items-center portfolio">
+  <div class="overlay-project item1 col-xs-12 col-sm-6 col-md-6">
+    <button type="btn" id="portfolio-button1"><a href="#" class="project1details">Więcej</a></button>
+  </div>
+  <div class="overlay-project item2 col-xs-12 col-sm-6 col-md-6">
+    <button type="btn" id="portfolio-button2"><a href="#" class="project2details">Więcej</a></button>
+  </div>
+  <div class="overlay-project item3 col-xs-12 col-sm-6 col-md-6">
+    <button type="btn" id="portfolio-button3"><a href="#" class="project3details">Więcej</a></button>
+  </div>
+  <div class="overlay-project item4 col-xs-12 col-sm-6 col-md-6">
+    <button type="btn" id="portfolio-button4"><a href="#" class="project4details">Więcej</a></button>
+  </div> 
+</div>
+<!-- About section -->
+<div class="container-fluid padding">
+  <h2 name="contact" id="contact">Zainteresowany/a współpracą?<br>
+    Napisz do mnie</h2>
+  <div class="contactForm col-12 d-flex justify-content-center align-items-center">
+    <label for="name">Imię i nazwisko</label>
+    <input name="name" id="name" type="text" placeholder="Imię i nazwisko" title="Wpisz imię i nazwisko">
+    <label for="email">Adres email</label>
+    <input name="email" id="email" type="email" class="contactForm-input" placeholder="Adres e-mail" title="Podaj adres email">
+    <label for="message">Wiadomość</label>
+    <textarea placeholder="Wiadomość" id="message" class="" name="message" cols="30" rows="8" title="Wpisz swoją wiadomość"></textarea>
+    <div><br>
+    </div>
+    <input type="submit" value="Wyślij" id="submit" class="btn">
+    <div><br>
+    </div>
+    <br>
+  </div>
+</div>
+<!-- Footer -->
+<footer>
+  <div class="container-fluid padding">
+    <div class="row text-center">
+      <div class="col-12">
+        <img src="img/logoDevStarterLite.png" alt="logo">
+        <br><br>
+        <i class="fas fa-phone"></i><p>tel: 123 456 789</p>
+        <br>
+        <i class="fas fa-envelope"></i><p>dev@starter.com</p>
+      </div>
+      <div class="col-12">
+        <hr class="light">
+        <p>&copy; DevStarter.com 2019</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+</body>
+</html>
