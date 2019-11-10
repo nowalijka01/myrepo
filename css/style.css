@@ -214,19 +214,18 @@ div.it-label>p {
 .portfolio {
     display: flex;
     flex-flow: row wrap;
-    max-width: calc(100vw-4*12px);
+    max-width: calc(100vw);
     overflow: hidden;
 }
 .overlay-project {
-    width: 550px;
+    width: 500px;
     height: 332px;
     overflow: hidden;
-    /* margin: 12px; */
+    border: 1.8vw solid #FFF;
 }
-.item1:hover, .item2:hover, .item3:hover, .item4:hover {
-    transform: scale(1.15);
+.overlay-project:hover {
+    transform: scale(1.06);
 }
-/* Portfolio-projekt1 */
 .item1 {
     display: flex;
     background-image: linear-gradient(-135deg,rgba(220, 220, 220, 0.4) 0%,rgba(175, 238, 238, 0.4) 100%), url("../img/project1.png");
@@ -234,37 +233,35 @@ div.it-label>p {
     height: 332px;
     max-height: 50vh;
     background-size: cover;
-    background-position: 100% center;
+    background-position: 100% 75%;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
     transition: all 0.25s ease-in-out;
 }
 div.portfolio > div > button#portfolio-button1 {
-    background-image: linear-gradient(-135deg,rgba(220, 220, 220, 0.4) 0%,rgba(175, 238, 238, 0.4) 100%);
+    background-image: -o-linear-gradient(225deg,rgba(220, 220, 220, 0.8) 0%,rgba(175, 238, 238, 0.8) 100%);
+    background-image: linear-gradient(-135deg,rgba(220, 220, 220, 0.8) 0%,rgba(175, 238, 238, 0.8) 100%);
     border-radius: 12px;
-    border: 2px solid rgba(170, 170, 170, 0.31);
+    border: 1px solid rgba(170, 170, 170, 0.1);
     opacity: 0.9;
-    height: 10%;
-    width: 20%;
+    height: 2.4em;
+    width: 6em;
+    min-height: 25px;
+    min-width: 60px;
 }
 button#portfolio-button1 > a {
     color: #333;
     text-decoration: none;
-}
-button#portfolio-button1:hover {
-    opacity: 1;
-    text-decoration: none;
     cursor: pointer;
 }
-/* Portfolio-projekt2 */
 .item2 {
     display: flex;
     background-image: linear-gradient(-135deg,rgba(255, 209, 153, 0.4) 0%,rgba(245, 135, 0, 0.2) 100%), url("../img/project2.png");
     color: #333;
     height: 332px;
     max-height: 50vh;
-    background-position: center;
+    background-position: center 17%;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -272,19 +269,18 @@ button#portfolio-button1:hover {
     transition: all 0.25s ease-in-out;
 }
 div.portfolio > div > button#portfolio-button2 {
-    background-image: linear-gradient(-135deg,rgba(255, 209, 153, 0.4) 0%,rgba(245, 135, 0, 0.2) 100%);
+    background-image: -o-linear-gradient(225deg,rgba(255, 221, 179, 0.8) 0%,rgba(252, 197, 131, 0.8) 100%);
+    background-image: linear-gradient(225deg,rgba(255, 221, 179, 0.8) 0%,rgba(252, 197, 131, 0.8) 100%);
     border-radius: 12px;
-    border: 2px solid rgba(170, 170, 170, 0.31);
+    border: 1px solid rgba(170, 170, 170, 0.1);
     opacity: 0.9;
-    height: 10%;
-    width: 19%;
+    height: 2.4em;
+    width: 6em;
+    min-height: 25px;
+    min-width: 60px;
 }
 button#portfolio-button2 > a {
     color: #333;
-    text-decoration: none;
-}
-button#portfolio-button2:hover {
-    opacity: 1;
     text-decoration: none;
     cursor: pointer;
 }
@@ -303,20 +299,18 @@ button#portfolio-button2:hover {
     transition: all 0.25s ease-in-out;
 }
 div.portfolio > div > button#portfolio-button3 {
-    background-image: -o-linear-gradient(225deg,rgba(255, 209, 153, 0.4) 0%,rgba(245, 135, 0, 0.2) 100%);
-    background-image: linear-gradient(-135deg,rgba(255, 209, 153, 0.4) 0%,rgba(245, 135, 0, 0.2) 100%);
+    background-image: -o-linear-gradient(225deg,rgba(255, 221, 179, 0.8) 0%,rgba(252, 197, 131, 0.8) 100%);
+    background-image: linear-gradient(225deg,rgba(255, 221, 179, 0.8) 0%,rgba(252, 197, 131, 0.8) 100%);
     border-radius: 12px;
-    border: 2px solid rgba(170, 170, 170, 0.31);
+    border: 1px solid rgba(170, 170, 170, 0.1);
     opacity: 0.9;
-    height: 10%;
-    width: 19%;
+    height: 2.4em;
+    width: 6em;
+    min-height: 25px;
+    min-width: 60px;
 }
 button#portfolio-button3 > a {
     color: #333;
-    text-decoration: none;
-}
-button#portfolio-button3:hover {
-    opacity: 1;
     text-decoration: none;
     cursor: pointer;
 }
@@ -327,7 +321,7 @@ button#portfolio-button3:hover {
     color: #333;
     height: 332px;
     max-height: 50vh;
-    background-position: center;
+    background-position: center 0%;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -335,20 +329,18 @@ button#portfolio-button3:hover {
     transition: all 0.25s ease-in-out;
 }
 div.portfolio > div > button#portfolio-button4 {
-    background-image: -o-linear-gradient(225deg,rgba(220, 220, 220, 0.4) 0%,rgba(175, 238, 238, 0.4) 100%);
-    background-image: linear-gradient(-135deg,rgba(220, 220, 220, 0.4) 0%,rgba(175, 238, 238, 0.4) 100%);
+    background-image: -o-linear-gradient(225deg,rgba(220, 220, 220, 0.8) 0%,rgba(175, 238, 238, 0.8) 100%);
+    background-image: linear-gradient(-135deg,rgba(220, 220, 220, 0.8) 0%,rgba(175, 238, 238, 0.8) 100%);
     border-radius: 12px;
-    border: 2px solid rgba(170, 170, 170, 0.31);
+    border: 1px solid rgba(170, 170, 170, 0.1);
     opacity: 0.9;
-    height: 10%;
-    width: 19%;
+    height: 2.4em;
+    width: 6em;
+    min-height: 25px;
+    min-width: 60px;
 }
 button#portfolio-button4 > a {
     color: #333;
-    text-decoration: none;
-}
-button#portfolio-button4:hover {
-    opacity: 1;
     text-decoration: none;
     cursor: pointer;
 }
@@ -373,21 +365,20 @@ input[type=submit] {
     border-radius: 10px;
     opacity: 0.9;
     color: #333!important;
-    transition: all 0.3s ease-in-out;
+    width: 6em;
+    height: 2.4em;
+    transition: all 0.05s ease-in-out;
 }
 input[type=submit]:hover {
     background-image: -o-linear-gradient(225deg,#FFD199 0%,#F58700 100%);
     background-image: linear-gradient(-135deg,#FFD199 0%,#F58700 100%);
     color: #333!important;
     opacity: 1;
-    transform: scale(1.15);
+    transform: scale(1.10);
 }
 textarea {
     border-radius: 2px;
     text-align: justify;    
-}
-.contact > input [type=name], input [type=email] {
-    size: lg;
 }
 /* Footer */
 footer {
@@ -447,7 +438,7 @@ footer p {
     }
 }
 @media (max-width: 768px) {
-    html {font-size: 0.95rem;
+    html {font-size: 0.8rem;
     }
     h1 {
         font-size: 2em;        
