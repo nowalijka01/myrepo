@@ -351,13 +351,21 @@ button#portfolio-button4 > a {
     cursor: pointer;
 }
 /* Contact form */
+.contactMain {
+    padding-bottom: 3rem;
+    justify-items: center;
+    max-width: 600px;
+}
 .contactForm {
     display: flex;
     flex-flow: column nowrap;
-    width:60vw; 
+    padding: 1rem 1.4rem 1.4rem 1.4rem;
+    border-radius: 1rem;
     align-items: center;
     justify-content: center;
     align-content: center;
+    background-color: rgba(120, 120, 120, 0.1);
+    box-shadow: 0.03rem 0.03rem 0.2rem 0.1rem rgba(30, 30, 30, 0.1);
 }
 .contactForm > * {
     flex: 1;
@@ -365,17 +373,23 @@ button#portfolio-button4 > a {
     justify-content: center;
     align-content: center;
 }
-#email,#name,#message {
-    border: 1px solid rgba(0, 0, 0, 0.3);
+.contactMain > .contactForm > #email,
+.contactMain > .contactForm > #name,
+.contactMain > .contactForm > #message {
+    border: 1px solid rgba(120, 120, 120, 0.5);
     color: #555;
+    box-shadow: none;
+    background-color: #fcfcfc;
 }
 #email:focus,#name:focus,#message:focus {
-    outline: 2px solid #FFD199;
-    background-color: rgba(255, 221, 179, 0.15);
+    outline: 2px solid #FFD199 !important;
+    background-color: rgba(252, 248, 243, 1);
+    box-shadow: none;
 }
 #email:active,#name:active,#message:active {
-    outline: 2px solid #FFD199;
+    outline: 2px solid #FFD199 !important;
     background-color: rgba(255, 221, 179, 0.15);
+    box-shadow: none;
 }
 input[type=submit] {
     background-image: -o-linear-gradient(225deg,#FFD199 0%,#F58700 100%);
